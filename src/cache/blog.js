@@ -1,0 +1,1 @@
+const {set,get} = require('./_redis')
