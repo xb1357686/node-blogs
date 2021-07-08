@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+PATH=$PATH:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+yarn lint-staged
